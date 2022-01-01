@@ -172,71 +172,8 @@ html{
 
 /*-------------------------------------------------------------------- PRICES----------------------------------------------------------------------------------- */
 
-.pricesmain{
-    position: relative;
-   flex-direction: column;
-    min-height: 500px;
-    height: fit-content;
-    max-width: 100vw;
-   
 
-}
 
-.navbarprices{
-    opacity: 50%;
-    padding: 0% !important;
-    
-
-}
-
-.prices_image{
-    max-width: 100vw !important;
-    min-height: 370px;
-}
-.prices_mid{
-display: flex;
-
-flex-direction: column;
-justify-content:space-evenly;
-text-align: center;
-margin: 0px !important;
-max-width: 100vw !important;
-
-}
-.prices_mid1{
-    align-self: center;
-    max-width: 553px !important;
-    min-height: 304px !important;
-    border-radius: 0px !important;
-    border-color: #1D7A8C;
-
-}
-
-.prices_mid2{
-max-width: 1140px;
-min-height: 325px;
-
-}
- .es_row{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     background-color: burlywood;
-     justify-content: center;
-     
- }
-
- .es_col{
-    background-color: brown;
-     min-height: 108px;
-     max-width: 108px !important;
-     margin-right: 109px;
-    
-     margin-bottom: 60px;
-     padding:0px !important;
-     border: 1px solid #B0C9CE;
-     border-radius: 250px;
- }
 @media (max-width: 1197px){
     .navbar_main{
         align-items: center !important;
