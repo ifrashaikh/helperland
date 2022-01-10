@@ -1,0 +1,569 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+
+.main{
+    background: url(images/group-35.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 928px;
+    height: fit-content;
+}
+.navbar_main{
+    padding: 0px 3px 0px 5px !important;
+    align-items: flex-start !important;
+}
+
+.navbar_list{
+    flex-grow: initial !important;
+    top: 33px;
+    position: relative;
+}
+
+.navbar_helper{
+    padding: 12px 18px;
+    border: solid 1px white;
+    margin-right: 22px !important;
+    line-height: 1.5;
+}
+.navbar_login{
+    margin-right: 11px !important;
+    border: solid 1px white;
+    padding: 12px 29px 12px;
+}
+
+.navbar_contact{
+    margin-right: 12px;
+}
+
+.navbar_book{
+    padding: 12px 25px;
+    border: solid 1px white;
+}
+
+.form_outer{
+    background-color: #fff;
+    min-height: 664px;
+    width: 430px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 40px;
+}
+.main_form input{
+    border: solid 1px #c8c8c8;
+    min-height: 46px;
+    border-radius: 0;
+}
+.form-group{
+    margin: 18px 0;
+    
+}
+.form_outer h3{
+    margin: 28px 0;
+}
+
+.main_form input::placeholder{
+    font-size: 16px;
+    color: #a0a0a0;
+}
+.form_areacode{
+    max-width: 46px;
+    background-color: #c8c8c8 !important;
+}
+.form_checkbox{
+    border: solid 1px #c8c8c8;
+    width: 20px;
+}
+.checkbox_outer p{
+    font-size: 14px;
+}
+.form_btn{
+    min-width: 166px;
+    min-height: 46px;
+    background-color:#1d7a8c !important;
+    color: white !important;
+    font-size: 16px !important;
+}
+.checkbox_outer span a{
+    color: #1fb6ff !important;
+    text-decoration: none !important;
+}
+
+.hiw_left svg, .hiw_right svg{
+    position: absolute;
+    z-index: -1;
+}
+.howItWorks{
+    min-height: 1196px;
+    height: fit-content;
+}
+.hiw_heading{
+    margin-top: 68px;
+    margin-bottom: 73px;
+}
+.hiw_card{
+    min-width: 740px;
+    color: #4f4f4f;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.hiw_card h2{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.hiw_card p{
+    font-size: 18px;
+}
+.card_desc{
+    margin-bottom: 48px;
+}
+
+.hiw_left svg{
+    left: 0;
+}
+.svg_1{
+    top:0;
+}
+.svg_2{
+    top: 40%;
+}
+.svg_3{
+    bottom: 0;
+}
+.hiw_right svg{
+    right: 0;
+}
+.svg_4{
+    top:0;
+}
+.svg_5{
+    top: 40%;
+}
+.svg_6{
+    bottom: 0;
+}
+.email_form{
+    padding: 50px 0;
+    justify-content: center !important;
+}
+
+.email_heading{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.email_input{
+    border: solid 1px #565656;
+    padding: 10px 40px 10px 22px;
+}
+
+.email_input ::placeholder{
+    font-size: 14px;
+    color: #565656;
+}
+
+.email_btn{
+    background-color: #ff7b6d !important;
+    padding: 10px 18px !important;
+    font-size: 14px !important;
+}
+
+
+.footer_section{
+    background-color: #111111;
+}
+
+.footer_main{
+    min-height: 130px;
+    height: fit-content;
+}
+.footer_inner{
+    min-width: 85vw;
+    border-bottom: 1px solid #424242;
+    min-height: 130px;
+}
+.footer_mid ul li{
+    margin: 15px;
+    list-style: none;
+}
+.footer_mid ul li a{
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.footer_right{
+    min-width: 106px;
+}
+
+.footer_end{
+    height: fit-content;
+}
+
+.footer_end p{
+    color: #9ba0a3;
+    padding: 26px 0px;
+    font-size: 14px;
+}
+.footer_end p span a{
+    color: #9ba0a3;
+}
+@media (max-width: 768px){
+    .hiw_card{
+        flex-direction: column;
+        min-width: fit-content;
+        text-align: center;
+    }
+
+    .card_content1{
+        order: 1;
+    }
+    .card_desc{
+        margin-bottom: 20px;
+    }
+    .card_image{
+        margin-bottom: 10px;
+    }
+    .form_outer{
+        width: 420px;   
+        padding: 0 10px;
+    }
+    .footer_mid ul{
+        display: grid !important;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 0px 10px;
+        padding: 20px 0 !important;
+        margin: 0;
+    }
+    .footer_inner{
+        flex-direction: column;
+        height: fit-content !important;
+        padding: 20px 0px;
+        justify-content: space-between !important;
+    }
+    .btn-1 , .btn-2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .svg_2{
+        top: 35%;
+    }
+    .svg_3{
+        top: 60%;
+    }
+    .svg_4{
+        top: 20%;
+    }
+    .svg_5{
+        top: 50%;
+    }
+    .form_outer{
+        width: 310px;   
+    }.footer_end{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .footer_mid ul{
+        grid-template-columns: 1fr 1fr;
+    }
+    .btn-1 , .btn-2{
+        min-height: 55px;
+        padding: 5px;
+        text-align: center;
+    }
+    .email_form input{
+        width: 200px;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+
+.main{
+    background: url(images/group-35.png) center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 928px;
+    height: fit-content;
+}
+.navbar_main{
+    padding: 0px 3px 0px 5px !important;
+    align-items: flex-start !important;
+}
+
+.navbar_list{
+    flex-grow: initial !important;
+    top: 33px;
+    position: relative;
+}
+
+.navbar_helper{
+    padding: 12px 18px;
+    border: solid 1px white;
+    margin-right: 22px !important;
+    line-height: 1.5;
+}
+.navbar_login{
+    margin-right: 11px !important;
+    border: solid 1px white;
+    padding: 12px 29px 12px;
+}
+
+.navbar_contact{
+    margin-right: 12px;
+}
+
+.navbar_book{
+    padding: 12px 25px;
+    border: solid 1px white;
+}
+
+.form_outer{
+    background-color: #fff;
+    min-height: 664px;
+    width: 430px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 40px;
+}
+.main_form input{
+    border: solid 1px #c8c8c8;
+    min-height: 46px;
+    border-radius: 0;
+}
+.form-group{
+    margin: 18px 0;
+    
+}
+.form_outer h3{
+    margin: 28px 0;
+}
+
+.main_form input::placeholder{
+    font-size: 16px;
+    color: #a0a0a0;
+}
+.form_areacode{
+    max-width: 46px;
+    background-color: #c8c8c8 !important;
+}
+.form_checkbox{
+    border: solid 1px #c8c8c8;
+    width: 20px;
+}
+.checkbox_outer p{
+    font-size: 14px;
+}
+.form_btn{
+    min-width: 166px;
+    min-height: 46px;
+    background-color:#1d7a8c !important;
+    color: white !important;
+    font-size: 16px !important;
+}
+.checkbox_outer span a{
+    color: #1fb6ff !important;
+    text-decoration: none !important;
+}
+
+.hiw_left svg, .hiw_right svg{
+    position: absolute;
+    z-index: -1;
+}
+.howItWorks{
+    min-height: 1196px;
+    height: fit-content;
+}
+.hiw_heading{
+    margin-top: 68px;
+    margin-bottom: 73px;
+}
+.hiw_card{
+    min-width: 740px;
+    color: #4f4f4f;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.hiw_card h2{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.hiw_card p{
+    font-size: 18px;
+}
+.card_desc{
+    margin-bottom: 48px;
+}
+
+.hiw_left svg{
+    left: 0;
+}
+.svg_1{
+    top:0;
+}
+.svg_2{
+    top: 40%;
+}
+.svg_3{
+    bottom: 0;
+}
+.hiw_right svg{
+    right: 0;
+}
+.svg_4{
+    top:0;
+}
+.svg_5{
+    top: 40%;
+}
+.svg_6{
+    bottom: 0;
+}
+.email_form{
+    padding: 50px 0;
+    justify-content: center !important;
+}
+
+.email_heading{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.email_input{
+    border: solid 1px #565656;
+    padding: 10px 40px 10px 22px;
+}
+
+.email_input ::placeholder{
+    font-size: 14px;
+    color: #565656;
+}
+
+.email_btn{
+    background-color: #ff7b6d !important;
+    padding: 10px 18px !important;
+    font-size: 14px !important;
+}
+
+
+.footer_section{
+    background-color: #111111;
+}
+
+.footer_main{
+    min-height: 130px;
+    height: fit-content;
+}
+.footer_inner{
+    min-width: 85vw;
+    border-bottom: 1px solid #424242;
+    min-height: 130px;
+}
+.footer_mid ul li{
+    margin: 15px;
+    list-style: none;
+}
+.footer_mid ul li a{
+    color: #f1f1f1;
+    font-size: 14px;
+}
+.footer_right{
+    min-width: 106px;
+}
+
+.footer_end{
+    height: fit-content;
+}
+
+.footer_end p{
+    color: #9ba0a3;
+    padding: 26px 0px;
+    font-size: 14px;
+}
+.footer_end p span a{
+    color: #9ba0a3;
+}
+@media (max-width: 768px){
+    .hiw_card{
+        flex-direction: column;
+        min-width: fit-content;
+        text-align: center;
+    }
+
+    .card_content1{
+        order: 1;
+    }
+    .card_desc{
+        margin-bottom: 20px;
+    }
+    .card_image{
+        margin-bottom: 10px;
+    }
+    .form_outer{
+        width: 420px;   
+        padding: 0 10px;
+    }
+    .footer_mid ul{
+        display: grid !important;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 0px 10px;
+        padding: 20px 0 !important;
+        margin: 0;
+    }
+    .footer_inner{
+        flex-direction: column;
+        height: fit-content !important;
+        padding: 20px 0px;
+        justify-content: space-between !important;
+    }
+    .btn-1 , .btn-2{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px){
+    .svg_2{
+        top: 35%;
+    }
+    .svg_3{
+        top: 60%;
+    }
+    .svg_4{
+        top: 20%;
+    }
+    .svg_5{
+        top: 50%;
+    }
+    .form_outer{
+        width: 310px;   
+    }.footer_end{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .footer_mid ul{
+        grid-template-columns: 1fr 1fr;
+    }
+    .btn-1 , .btn-2{
+        min-height: 55px;
+        padding: 5px;
+        text-align: center;
+    }
+    .email_form input{
+        width: 200px;
+    }
+}}
