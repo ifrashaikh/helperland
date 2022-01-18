@@ -20,6 +20,13 @@ html{
     align-items: flex-start !important;
 }
 
+.logo{
+
+    cursor: pointer;
+
+
+}
+
 .navbar_list{
     flex-grow: initial !important;
     top: 33px;
@@ -43,8 +50,14 @@ html{
 }
 
 .navbar_book{
-    padding: 12px 25px;
+    padding: 10px 20px;
     border: solid 1px white;
+    cursor: pointer;
+}
+
+.navbar_book:hover{
+    background-color: rgb(255, 255, 255);
+    color: blue !important;
 }
 
 .main_content{
@@ -57,12 +70,22 @@ html{
 
 .main_button{
     margin-top: 16px !important;
-    padding: 18px 33px;
+    padding: 10px 20px;
     background-color: #00607299;
     border: 1px solid white;
     max-width: 225px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
 } 
 
+.main_button:hover{
+    background-color: white;
+}
+
+.main_button:hover>a , .button_link:hover{
+color: rgb(9, 9, 83) !important;
+}
 .feedback_heading{
     color: #4f4f4f;
     padding-top: 65px;
