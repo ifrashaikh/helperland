@@ -512,3 +512,6 @@
 0:0:0:0:0:0:0:1 - - [02/Feb/2022:11:47:35 +0530] "GET /Helperland/resources/css/faq.css HTTP/1.1" 200 5255
 0:0:0:0:0:0:0:1 - - [02/Feb/2022:11:47:35 +0530] "GET /Helperland/images/down-arrow.png HTTP/1.1" 404 992
 0:0:0:0:0:0:0:1 - - [02/Feb/2022:11:47:36 +0530] "GET /Helperland/images/logo-small.png HTTP/1.1" 404 992
+127.0.0.1 - - [02/Feb/2022:18:41:52 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [02/Feb/2022:18:41:58 +0530] "GET /Helperland/ HTTP/1.1" 500 3185
+0:0:0:0:0:0:0:1 - - [02/Feb/2022:18:41:59 +0530] "GET /favicon.ico HTTP/1.1" 404 1016

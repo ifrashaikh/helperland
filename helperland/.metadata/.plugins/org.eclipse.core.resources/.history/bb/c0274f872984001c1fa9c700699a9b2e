@@ -346,35 +346,6 @@ html{
     color: #9ba0a3;
 }
 
-#logInModal .modal-content {
-    padding: 20px;
-    padding-top: 0;
-    color: #646464;
-  }
-  .modalInputEmail {
-    padding: 5px 40px 5px 15px;
-    width: 100%;
-  }
-  .inputHeightBorder {
-    height: 46px;
-    border: 1px solid #e1e1e1;
-  }
-  
-  .logInModal .form-group img {
-    position: absolute;
-    left: auto;
-    right: 10px;
-    top: 10px;
-  }
-  .submitButton {
-    padding: 15px 30px !important;
-    background-color: #1d7a8c !important;
-  }
-  .forgotPasswordRedirect {
-    color: #1d7a8c;
-    text-decoration: none;
-  }
-
 @media (min-width: 1025px) and (max-width:1232px){
     .about_content{
         margin-right: 20px;

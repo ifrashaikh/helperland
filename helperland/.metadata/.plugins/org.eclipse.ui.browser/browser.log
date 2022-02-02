@@ -1,0 +1,10 @@
+
+Feb 02, 2022 18:41:58.29 NEW SESSION
+Feb 02, 2022 18:41:58.29 [14444:7076:0202/184158.292:ERROR:network_service_instance_impl.cc(474)] Failed to delete file C:\Users\IFRA\AppData\Local\Google\Chrome\User Data\Default\Cookies: The process cannot access the file because it is being used by another process. (0x20)
+Feb 02, 2022 18:41:58.29 [14444:23008:0202/184158.293:ERROR:network_service_instance_impl.cc(321)] Encountered error while migrating network context data or granting sandbox access for C:\Users\IFRA\AppData\Local\Google\Chrome\User Data\Default\Network. Result: 4: The operation completed successfully. (0x0)
+Feb 02, 2022 18:41:58.81 [14444:5004:0202/184158.819:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+Feb 02, 2022 18:41:58.82 [14444:5004:0202/184158.819:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+Feb 02, 2022 18:41:58.82 [14444:5004:0202/184158.819:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+Feb 02, 2022 18:41:58.82 [14444:5004:0202/184158.822:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+Feb 02, 2022 18:41:58.87 [14444:23008:0202/184158.870:ERROR:device_event_log_impl.cc(214)] [18:41:58.870] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Feb 02, 2022 18:41:58.87 [14444:23008:0202/184158.871:ERROR:device_event_log_impl.cc(214)] [18:41:58.870] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)

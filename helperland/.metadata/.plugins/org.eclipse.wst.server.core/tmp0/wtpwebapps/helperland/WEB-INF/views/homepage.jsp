@@ -52,8 +52,8 @@
             <a class="nav-link text-light" href="contactus.html" id="contact">Contact</a>
           </div>
           <div class="nav-item navbar_login rounded-pill">
-            <a href="#" class="text-decoration-none text-light nav-link">Login</a>
-          </div>
+            <a href="#logInModal" class="text-decoration-none text-light nav-link" data-bs-target="#logInModal" data-bs-toggle="modal" data-bs-dismiss="modal" id="logInButton">Login</a>
+           </div>
           <div class="nav-item navbar_helper rounded-pill">
             <a href="becomeApro.html" class="text-decoration-none text-light nav-link">Become a Helper</a>
           </div>
@@ -424,7 +424,48 @@
     </div>
 
 
+<div class="logInPopUp">
 
+      <div class="modal fade" id="logInModal" aria-hidden="true" aria-labelledby="logInModalLabel" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered vertical-align-center modal-md">
+              <div class="modal-content">
+                  <!-- <div class="modal-body"> -->
+                  <div class="modal-header">
+                      <h3 class="modal-title" id="logInModalLabel">Login to your account</h3>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body logInModal p-2">
+                      <form action="">
+                          <div class="form-group position-relative my-3">
+                              <input type="email" placeholder="Email Address" name="email" class="modalInputEmail inputHeightBorder">
+                              <img src="images/user.png" alt="" height="21" width="20">
+                          </div>
+                          
+                          <div class="form-group position-relative my-3">
+                              <input type="password" placeholder="Password" name="password" class="modalInputEmail inputHeightBorder">
+                              <img src="images/lock.png" alt="" height="21" width="20">
+                          </div>
+
+                          <div class="form-group">
+                              <input type="checkbox" value="rememberme" id="rememberme">
+                              <label for="rememberme" class="control-label">Remember me</label>
+                          </div>
+                          <button type="submit" class="my-3 btn submitButton text-light w-100 rounded-pill" >
+                              Login
+                          </button>
+                      </form>
+                      <div class="text-center mt-2">
+                          <a href="forgotPasswordModal" class="forgotPasswordRedirect" data-bs-target="#forgotPasswordModal" data-bs-toggle="modal" data-bs-dismiss="modal">Forgot Password?</a>
+                      </div>
+                      <div class="text-center">
+                          Don't have account? <span> <a class="forgotPasswordRedirect" href="register">Create an account? </a></span>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"></script>
