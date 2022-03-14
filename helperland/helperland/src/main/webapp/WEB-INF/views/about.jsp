@@ -12,8 +12,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="<c:url value="about.css"></c:url>">
+  
 
+    <link rel="stylesheet" href="<c:url value="/resources/css/about.css"></c:url>">
   
     <title>about</title>
 </head>
@@ -23,7 +24,7 @@
         <nav class="navbar navbar-expand-xl" id="navbar">
           <div class="container-fluid navbar_main">
             <a class="navbar-brand py-0" href="homepage.html">
-              <img src="images/logo-small.png" alt="" height="54px" width="73px">
+              <img src="<c:url value="/resources/images/logo-small.png"></c:url>" alt="" height="54px" width="73px">
             </a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
               aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +39,7 @@
                 <a class="p-0 nav-link text-light" href="#">Book now</a>
               </div>
               <div class="nav-item navbar_prices rounded-pill">
-                <a class="p-0 nav-link text-light" href="prices.html">Prices & services</a>
+                <a class="p-0 nav-link text-light" href="prices">Prices & services</a>
               </div>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center justify-content-between">
                 <li class="nav-item">
@@ -48,20 +49,20 @@
                   <a class="nav-link text-light" href="#">Blog</a>
                 </li>
                 <li class="nav-item navbar_contact">
-                  <a class="nav-link text-light" href="contactus.html">Contact</a>
+                  <a class="nav-link text-light" href="contact">Contact</a>
                 </li>
               </ul>
               <div class="nav-item navbar_login rounded-pill">
-                <a href="#" class="p-0 text-decoration-none text-light">Login</a>
+                <a href="homepage" class="p-0 text-decoration-none text-light">Login</a>
               </div>
               <div class="nav-item navbar_helper rounded-pill">
-                <a href="becomeApro.html" class="p-0 text-decoration-none text-light">Become a Helper</a>
+                <a href="becomeApro" class="p-0 text-decoration-none text-light">Become a Helper</a>
               </div>
             </div>
           </div>
         </nav>
         <div class="main_image">
-          <img src="images/hero-banner-img.png" alt="" height="auto" width="auto">
+          <img src="<c:url value="/resources/images/hero-banner-img.png"></c:url>"alt="" height="auto" width="auto">
         </div>
       </div>
     <div class="about_us d-flex flex-column align-items-center justify-content-center">
@@ -126,21 +127,21 @@
         <div class="footer_main d-flex justify-content-center align-items-center position-relative">
             <div class="d-flex justify-content-between h-100 align-items-center footer_inner position-relative">
                 <div class="footer_left">
-                    <img src="images/logo-small.png" alt="" height="78" width="106">
+                    <img src="<c:url value="/resources/images/logo-small.png"></c:url>" alt="" height="78" width="106">
                 </div>
                 <div class="footer_mid">
                     <ul class="d-flex p-0 text-center m-0">
                         <li>
-                            <a href="homepage.html" class="text-decoration-none">HOME</a>
+                            <a href="homepage" class="text-decoration-none">HOME</a>
                         </li>
                         <li>
-                            <a href="about.html" class="text-decoration-none">ABOUT</a>
+                            <a href="about" class="text-decoration-none">ABOUT</a>
                         </li>
                         <li>
                             <a href="" class="text-decoration-none">TESTIMONIAL</a>
                         </li>
                         <li>
-                            <a href="faq.html" class="text-decoration-none">FAQS</a>
+                            <a href="faq" class="text-decoration-none">FAQS</a>
                         </li>
                         <li>
                             <a href="" class="text-decoration-none">INSURANCE POLICY</a>
@@ -151,9 +152,9 @@
                     </ul>
                 </div>
                 <div class="footer_right d-flex align-items-center justify-content-evenly">
-                    <img src="images/ic-facebook.png" width="9" height="18">
+                    <img src="<c:url value="/resources/images/ic-facebook.png"></c:url>" width="9" height="18">
 
-                    <img src="images/ic-instagram.png" width="20" height="20">
+                    <img src="<c:url value="/resources/images/ic-instagram.png"></c:url>" width="20" height="20">
 
                 </div>
             </div>

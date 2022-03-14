@@ -26,7 +26,7 @@ public class UserDao {
 		
 	}
 	
-	public List<User> getUser(){
+	public List<User> getUsers(){
 		Session session = sessionFactory.getCurrentSession();
         CriteriaBuilder cb = session.getCriteriaBuilder();
         CriteriaQuery < User > cq = cb.createQuery(User.class);
@@ -34,5 +34,12 @@ public class UserDao {
         cq.select(root);
         Query query = session.createQuery(cq);
         return query.getResultList();
+	}
+	
+	public User getUser(int id){
+		
+		Session session = sessionFactory.getCurrentSession();
+        User user = session.get(User.class, id);
+        return user;
 	}
 }

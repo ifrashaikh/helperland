@@ -7,7 +7,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" href="<c:url value="prices.css"></c:url>">
+   <link rel="stylesheet" href="<c:url value="/resources/css/prices.css"></c:url>">
 
   
   <!-- Bootstrap CSS -->
@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-xl" id="navbar">
       <div class="container-fluid navbar_main">
         <a class="navbar-brand py-0" href="homepage.html">
-          <img src="images/logo-small.png" alt="" height="54px" width="73px">
+          <img src="<c:url value="/resources/images/logo-small.png"></c:url>" alt="" height="54px" width="73px">
         </a>
         <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
             <a class="p-0 nav-link text-light" href="#">Book now</a>
           </div>
           <div class="nav-item navbar_prices rounded-pill">
-            <a class="p-0 nav-link text-light" href="prices.html">Prices & services</a>
+            <a class="p-0 nav-link text-light" href="prices">Prices & services</a>
           </div>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center justify-content-between">
             <li class="nav-item">
@@ -49,21 +49,21 @@
               <a class="nav-link text-light" href="#">Blog</a>
             </li>
             <li class="nav-item navbar_contact">
-              <a class="nav-link text-light" href="contactus.html">Contact</a>
+              <a class="nav-link text-light" href="contact">Contact</a>
             </li>
           </ul>
           <div class="nav-item navbar_login rounded-pill">
-            <a href="#" class="p-0 text-decoration-none text-light">Login</a>
+            <a href="homepage" class="p-0 text-decoration-none text-light">Login</a>
           </div>
           <div class="nav-item navbar_helper rounded-pill">
-            <a href="becomeApro.html" class="p-0 text-decoration-none text-light">Become a Helper</a>
+            <a href="becomeApro" class="p-0 text-decoration-none text-light">Become a Helper</a>
           </div>
         </div>
       </div>
     </nav>
 
     <div class="col prices_image">
-      <img src="images/group-18.png" style="width: 100vw;">
+      <img src="<c:url value="/resources/images/group-18.png"></c:url>" style="width: 100vw;">
     </div>
 
   </section>
@@ -77,15 +77,15 @@
         </h2>
         <ul class="price_card_list mt-4">
           <li>
-            <img src="images/forma-1_5.png" alt="" height="24" width="25">
+            <img src="<c:url value="/resources/images/forma-1_5.png"></c:url>" alt="" height="24" width="25">
             <p>Lower prices</p>
           </li>
           <li>
-            <img src="images/forma-1_5.png" alt="" height="24" width="25">
+            <img src="<c:url value="/resources/images/forma-1_5.png"></c:url>" alt="" height="24" width="25">
             <p>Easy online & secure payment</p>
           </li>
           <li>
-            <img src="images/forma-1_5.png" alt="" height="24" width="25">
+            <img src="<c:url value="/resources/images/forma-1_5.png"></c:url>" alt="" height="24" width="25">
             <p>Easy amendment</p>
           </li>
         </ul>
@@ -98,7 +98,7 @@
         <h1>Extra services</h1>
         <div class="prices_box">
           <div class="left_line"></div>
-          <img src="./assets/first/separator.png" alt="" />
+          <img src="<c:url value="/resources/images/separator.png"></c:url>" alt="" />
           <div class="right_line"></div>
         </div>
       </div>
@@ -122,7 +122,7 @@
                 align-items-center
                 justify-content-center
               ">
-            <img src="images/3.png">
+            <img src="<c:url value="/resources/images/3.png"></c:url>">
           </div>
           <div class="
                 services_content
@@ -149,7 +149,7 @@
                 align-items-center
                 justify-content-center
               ">
-            <img src="images/5.png">
+            <img src="<c:url value="/resources/images/5.png"></c:url>">
           </div>
           <div class="
                 services_content
@@ -176,7 +176,7 @@
                 align-items-center
                 justify-content-center
               ">
-            <img src="images/4.png">
+            <img src="<c:url value="/resources/images/4.png"></c:url>">
           </div>
           <div class="
                 services_content
@@ -203,7 +203,7 @@
                 align-items-center
                 justify-content-center
               ">
-            <img src="images/2.png">
+            <img src="<c:url value="/resources/images/2.png"></c:url>">
           </div>
           <div class="
                 services_content
@@ -230,7 +230,7 @@
                 align-items-center
                 justify-content-center
               ">
-            <img src="images/1.png">
+            <img src="<c:url value="/resources/images/1.png"></c:url>">
           </div>
           <div class="
                 services_content
@@ -255,89 +255,89 @@
       <h1 class="text-center">What we include in cleaning</h1>
       <div class="prices_box">
         <div class="left_line"></div>
-        <img src="images/separator.png" alt="" />
+        <img src="<c:url value="/resources/images/separator.png"></c:url>" alt="" />
         <div class="right_line"></div>
       </div>
     </div>
     <div class="card-group d-flex justify-content-center mt-3">
       <div class="card border-0 services_card mx-3">
-        <img class="card-img-top" src="images/group-18_3.png" alt="Card image cap" height="210" width="360" />
+        <img class="card-img-top" src="<c:url value="/resources/images/group-18_3.png"></c:url>" alt="Card image cap" height="210" width="360" />
         <h5 class="mt-4">Bedroom and Living Room</h5>
         <ul class="w-100 p-0 services_card_list">
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Dust all accessible surfaces</p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">
               Wipe down all mirrors and glass fixtures
             </p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Clean all floor surfaces</p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Take out garbage and recycling</p>
           </li>
         </ul>
       </div>
       <div class="card border-0 services_card mx-3">
-        <img class="card-img-top" src="images/group-18_4.png" alt="Card image cap" height="210" width="360" />
+        <img class="card-img-top" src="<c:url value="/resources/images/group-18_4.png"></c:url>" alt="Card image cap" height="210" width="360" />
         <h5 class="mt-4">Bathrooms</h5>
         <ul class="w-100 p-0 services_card_list">
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">
               Wash and sanitize the toilet, shower, tub, sink
             </p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Dust all accessible surfaces</p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">
               Wipe down all mirrors and glass fixtures
             </p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Clean all floor surfaces</p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Take out garbage and recycling</p>
           </li>
         </ul>
       </div>
       <div class="card border-0 services_card mx-3">
-        <img class="card-img-top" src="images/group-18_2.png" alt="Card image cap" height="210" width="360" />
+        <img class="card-img-top" src="<c:url value="/resources/images/group-18_2.png"></c:url>" alt="Card image cap" height="210" width="360" />
         <h5 class="mt-4">Kitchen</h5>
         <ul class="w-100 p-0 services_card_list">
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Dust all accessible surfaces</p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Empty sink and load up dishwasher</p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">
               Wipe down exterior of stove, oven and fridge
             </p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Clean all floor surfaces</p>
           </li>
           <li class="d-flex align-items-center">
-            <img src="images/arr.png" alt="" height="22" width="22" />
+            <img src="<c:url value="/resources/images/arr.png"></c:url>" alt="" height="22" width="22" />
             <p class="mb-0 ms-2">Take out garbage and recycling</p>
           </li>
         </ul>
@@ -350,7 +350,7 @@
       <h1>Why Helperland</h1>
       <div class="prices_box">
         <div class="left_line"></div>
-        <img src="images/separator.png" alt="" />
+        <img src="<c:url value="/resources/images/separator.png"></c:url>" alt="" />
         <div class="right_line"></div>
       </div>
     </div>
@@ -373,13 +373,13 @@
         </div>
       </div>
       <div class="why_mid">
-        <img src="images/the-best-img-1.png" alt="" width="329" height="236" />
+        <img src="<c:url value="/resources/images/the-best-img-1.png"></c:url>" alt="" width="329" height="236" />
       </div>
       <div class="why_right d-flex flex-column justify-content-between">
         <div class="right_up">
           <h5 class="m-0">Every cleaning is insured</h5>
           <p class="m-0">
-            and seek to provide exceptional service and <br> engage in proactive behavior. We‘d be happy <br> to clean
+            and seek to provide exceptional service and <br> engage in proactive behavior. Weâd be happy <br> to clean
             your homes.
           </p>
         </div>
@@ -397,21 +397,21 @@
     <div class="footer_main d-flex justify-content-center align-items-center position-relative">
       <div class="d-flex justify-content-between h-100 align-items-center footer_inner position-relative">
         <div class="footer_left">
-          <img src="images/logo-small.png" alt="" height="78" width="106">
+          <img src="<c:url value="/resources/images/logo-small.png"></c:url>" alt="" height="78" width="106 ">
         </div>
         <div class="footer_mid">
           <ul class="d-flex p-0 text-center m-0">
             <li>
-              <a href="homepage.html" class="text-decoration-none">HOME</a>
+              <a href="homepage" class="text-decoration-none">HOME</a>
             </li>
             <li>
-              <a href="about.html" class="text-decoration-none">ABOUT</a>
+              <a href="about" class="text-decoration-none">ABOUT</a>
             </li>
             <li>
               <a href="" class="text-decoration-none">TESTIMONIAL</a>
             </li>
             <li>
-              <a href="faq.html" class="text-decoration-none">FAQS</a>
+              <a href="faq" class="text-decoration-none">FAQS</a>
             </li>
             <li>
               <a href="" class="text-decoration-none">INSURANCE POLICY</a>
@@ -422,15 +422,15 @@
           </ul>
         </div>
         <div class="footer_right d-flex align-items-center justify-content-evenly">
-          <img src="images/ic-facebook.png" width="9" height="18">
+          <img src="<c:url value="/resources/images/ic-facebook.png"></c:url>" width="9" height="18">
 
-          <img src="images/ic-instagram.png" width="20" height="20">
+          <img src="<c:url value="/resources/images/ic-instagram.png"></c:url>" width="20" height="20">
 
         </div>
       </div>
     </div>
     <div class="footer_end d-flex align-items-center justify-content-center position-relative">
-      <p class="m-0 text-center">©2018 Helperland. All rights reserved. &nbsp;&nbsp;<span><a href=""
+      <p class="m-0 text-center">Â©2018 Helperland. All rights reserved. &nbsp;&nbsp;<span><a href=""
             class="text-decoration-none">Terms and Conditions</a></span> | <span><a href=""
             class="text-decoration-none">Privacy Policy</a></span></p>
     </div>

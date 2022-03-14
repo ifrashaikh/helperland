@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="com.mysql.cj.Session"/>
+<fullyQualifiedTypeName name="javax.mail.Authenticator"/>
+<fullyQualifiedTypeName name="java.net.MalformedURLException"/>
+<fullyQualifiedTypeName name="javax.mail.Session"/>
+<fullyQualifiedTypeName name="javax.mail.internet.MimeMessage"/>
+<fullyQualifiedTypeName name="javax.mail.Message"/>
+<fullyQualifiedTypeName name="javax.mail.Message.RecipientType"/>
+<fullyQualifiedTypeName name="javax.mail.internet.InternetAddress"/>
+<fullyQualifiedTypeName name="javax.mail.Transport"/>
+<fullyQualifiedTypeName name="javax.mail.MessagingException"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="helperland.service.ContactusService"/>
+<fullyQualifiedTypeName name="helperland.model.Contactus"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="helperland.dao.UserAddressDao"/>
+<fullyQualifiedTypeName name="helperland.service.UserAddressService"/>
+<fullyQualifiedTypeName name="helperland.model.UserAddress"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="helperland.dao.ZipcodeDao"/>
+<fullyQualifiedTypeName name="helperland.service.ZipcodeService"/>
+<fullyQualifiedTypeName name="helperland.model.Zipcode"/>
+<fullyQualifiedTypeName name="helperland.service.StateService"/>
+<fullyQualifiedTypeName name="helperland.service.CityService"/>
+<fullyQualifiedTypeName name="helperland.model.City"/>
+<fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+<fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+<fullyQualifiedTypeName name="java.rmi.server.SocketSecurityException"/>
+<fullyQualifiedTypeName name="com.google.protobuf.Timestamp"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="helperland.dao.ServiceRequestAddressDao"/>
+<fullyQualifiedTypeName name="helperland.service.ServiceRequestAddressService"/>
+<fullyQualifiedTypeName name="helperland.model.ServiceRequestAddress"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="helperland.service.ServiceRequestService"/>
+<fullyQualifiedTypeName name="helperland.model.ServiceRequest"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="org.hibernate.SQLQuery"/>
+</qualifiedTypeNameHistroy>

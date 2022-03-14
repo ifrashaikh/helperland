@@ -16,8 +16,8 @@
    http://www.springframework.org/schema/tx/spring-tx.xsd">
     <context:component-scan base-package="helperland" />
     <mvc:annotation-driven/>
-    <tx:annotation-driven/>
-    <context:annotation-config/>
+  
+   
 
 
     
@@ -31,7 +31,7 @@
     <bean id="myDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
         <property name="driverClass" value="com.mysql.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3307/test" />
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3307/helperlanddatabase" />
         <property name="user" value="root" />
         <property name="password" value="#2420Ifra" />
       

@@ -1,0 +1,17 @@
+127.0.0.1 - - [08/Mar/2022:11:49:10 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:49:11 +0530] "GET /Helperland/WEB-INF/views/custDash.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:49:12 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:50:33 +0530] "GET /Helperland/custDash HTTP/1.1" 200 33824
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:50:34 +0530] "GET /Helperland/resources/css/custDash.css;jsessionid=12690907B48AD87BC01D909A2DDA9DFC HTTP/1.1" 200 8963
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:50:34 +0530] "GET /Helperland/resources/assets/nav-footer-assets/bell.png;jsessionid=12690907B48AD87BC01D909A2DDA9DFC HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:50:34 +0530] "GET /Helperland/resources/assets/nav-footer-assets/logo.png;jsessionid=12690907B48AD87BC01D909A2DDA9DFC HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:50:34 +0530] "GET /Helperland/resources/assets/nav-footer-assets/logo.png;jsessionid=12690907B48AD87BC01D909A2DDA9DFC HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:51:31 +0530] "GET /helperland/service-booking HTTP/1.1" 404 1046
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:57:28 +0530] "GET /Helperland/WEB-INF/views/custDash.jsp HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:57:39 +0530] "GET /Helperland/custDash HTTP/1.1" 200 33648
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:57:39 +0530] "GET /Helperland/resources/assets/nav-footer-assets/logo.png HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:57:40 +0530] "GET /Helperland/resources/assets/nav-footer-assets/bell.png HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:57:40 +0530] "GET /Helperland/resources/css/custDash.css HTTP/1.1" 200 10201
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:57:40 +0530] "GET /Helperland/resources/assets/nav-footer-assets/logo.png HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:58:35 +0530] "GET /Helperland/dash HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [08/Mar/2022:11:58:40 +0530] "GET /Helperland/service-history HTTP/1.1" 404 992

@@ -21,7 +21,13 @@ public class UserService {
 	}
 	
 	@Transactional
-	public List<User> getUser(){
-		return userDao.getUser();
+	public List<User> getUsers(){
+		return userDao.getUsers();
 	}
+	
+	@Transactional
+	public User getUser(int id){
+		return userDao.getUser(id);
+	}
+	
 }

@@ -22,6 +22,19 @@ public class User {
 	private Timestamp CreatedDate;
 	private Timestamp ModifiedDate;
 	private int ModifiedBy;
+	private String Zipcode;
+	public String getZipcode() {
+		return Zipcode;
+	}
+	public void setZipcode(String zipcode) {
+		Zipcode = zipcode;
+	}
+	public int getUserId() {
+		return UserId;
+	}
+	public void setUserId(int userId) {
+		UserId = userId;
+	}
 	public String getFirstName() {
 		return FirstName;
 	}

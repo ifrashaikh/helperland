@@ -464,6 +464,22 @@ html{
         height: 54px;
         width: 73px;
     }
+    .footer_mid ul{
+        display: grid !important;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 0px 10px;
+        padding: 20px 0 !important;
+        margin: 0;
+    }
+    .footer_inner{
+        flex-direction: column;
+        height: fit-content !important;
+        padding: 20px 0px;
+        justify-content: space-between !important;
+    }
+    .btn-1 , .btn-2{
+        font-size: 15px;
+    }
 
     
 }

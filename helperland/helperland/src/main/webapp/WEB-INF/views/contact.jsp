@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
-    <link rel="stylesheet" href="<c:url value="contactus.css"></c:url>">
+    <link rel="stylesheet" href="<c:url value="/resources/css/contactus.css"></c:url>">
 
   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,7 +26,7 @@
         <nav class="navbar navbar-expand-xl" id="navbar">
           <div class="container-fluid navbar_main">
             <a class="navbar-brand py-0" href="homepage.html">
-              <img src="images/logo-small.png" alt="" height="54px" width="73px">
+              <img src="<c:url value="/resources/images/logo-small.png"></c:url>" alt="" height="54px" width="73px">
             </a>
             <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
               aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +41,7 @@
                 <a class="p-0 nav-link text-light" href="#">Book now</a>
               </div>
               <div class="nav-item navbar_prices rounded-pill">
-                <a class="p-0 nav-link text-light" href="prices.html">Prices & services</a>
+                <a class="p-0 nav-link text-light" href="pricesl">Prices & services</a>
               </div>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center justify-content-between">
                 <li class="nav-item">
@@ -51,11 +51,11 @@
                   <a class="nav-link text-light" href="#">Blog</a>
                 </li>
                 <li class="nav-item navbar_contact">
-                  <a class="nav-link text-light" href="contactus.html">Contact</a>
+                  <a class="nav-link text-light" href="contact">Contact</a>
                 </li>
               </ul>
               <div class="nav-item navbar_login rounded-pill">
-                <a href="#" class="p-0 text-decoration-none text-light">Login</a>
+                <a href="homepage" class="p-0 text-decoration-none text-light">Login</a>
               </div>
               <div class="nav-item navbar_helper rounded-pill">
                 <a href="becomeApro.html" class="p-0 text-decoration-none text-light">Become a Helper</a>
@@ -100,7 +100,7 @@
             </div>
             <div class="logos_inner d-flex flex-column align-items-center justify-content-start mb-0">
                 <div class="logos_logo">
-                    <img src="images/message.png" alt="" height="37" width="61px">
+                    <img src="<c:url value="/resources/images/message.png"></c:url>" alt="" height="37" width="61px">
                 </div>
                 <div class="logos_content">
                     <p class="mb-0 text-center">info@helperland.com <br> &nbsp</p>
@@ -111,35 +111,49 @@
         <div class="container-fluid form_cover">
             <h4 class="text-center form_heading">Get in touch with us</h4>
             <div class="touch_form d-flex align-items-center justify-content-center">
-                <form method="" action="" class="d-flex flex-column">
+            
+            
+      <!-- -------------------------------------------------FORM----------------------------------------- -->
+                <form  action="savecontact" class="d-flex flex-column" method="post">
                     <div class="row justify-content-center">
-                        <div class="col">
-                            <input type="text" name="firstname" placeholder="First name" class="form_in w-100 h-100">
+                     <div class="col">
+                            <input type="text" name="Name" placeholder="First name" class="form_in w-100 h-100">
                         </div>
                         <div class="col">
                             <input type="text" name="lastname" placeholder="Last name" class="form_in w-100 h-100">
-                        </div>
+                        </div> 
+                       
                     </div>
                     <div class="row justify-content-center">
                         <div class="col d-flex">
-                            <input type="number" name="areacode" value="+49" class="form_areacode form_in form-control" disabled >
-                            <input type="number" name="number" placeholder="Mobile number" class=" form_in w-100 h-100">
+                          <input type="number" name="areacode" value="+49" class="form_areacode form_in form-control" disabled >
+                           <input type="number"  name="PhoneNumber" placeholder="Mobile number" class=" form_in w-100 h-100">
                         </div>
                         <div class="col">
-                            <input type="email" name="email" placeholder="Email address" class="form_in w-100 h-100">
+                            <input type="email" name="Email" placeholder="Email address" class="form_in w-100 h-100">
                         </div>
                     </div>
+                    
+                    
+                    
                     <div class="form_select">
-                        <select class="w-100 p-0 form_in" aria-label="Default select">
-                            <option value="" hidden class="w-100 placeholder">Subject</option>
-                            <option value="1" class="w-100">One</option>
-                            <option value="2" class="w-100">Two</option>
-                            <option value="3" class="w-100">Three</option>
-                        </select>
+                    
+                     <select id="subject_menu"  class="w-100 p-0 form_in" aria-label="Default select" name="Subject" >
+              <option value="general" >General</option>
+              <option value="inquiry" >Inquiry</option>
+              <option value="renewal" >Renewal</option>
+              <option value="revocation" >Revocation</option>
+            </select>
+            
+            
                     </div>
+                    
+                    
                     <div class="textarea">
-                        <textarea name="" id="" class="w-100 h-100 p-0 form_in" placeholder="Message" ></textarea>
+                        <textarea name="Message" id="" class="w-100 h-100 p-0 form_in" placeholder="Message" ></textarea>
                     </div>
+                    
+                    
                     <div class="form_btn w-100 mt-3 d-flex align-items-center justify-content-center">
                         <button type="submit" class="btn submit_btn rounded-pill text-white">
                             Submit
@@ -171,21 +185,21 @@
     <div class="footer_main d-flex justify-content-center align-items-center position-relative">
       <div class="d-flex justify-content-between h-100 align-items-center footer_inner position-relative">
         <div class="footer_left">
-          <img src="images/logo-small.png" alt="" height="78" width="106">
+          <img src="<c:url value="/resources/images/logo-small.png"></c:url>" alt="" height="78" width="106">
         </div>
         <div class="footer_mid">
           <ul class="d-flex p-0 text-center m-0">
             <li>
-              <a href="homepage.html" class="text-decoration-none">HOME</a>
+              <a href="homepage" class="text-decoration-none">HOME</a>
             </li>
             <li>
-              <a href="about.html" class="text-decoration-none">ABOUT</a>
+              <a href="about" class="text-decoration-none">ABOUT</a>
             </li>
             <li>
               <a href="" class="text-decoration-none">TESTIMONIAL</a>
             </li>
             <li>
-              <a href="faq.html" class="text-decoration-none">FAQS</a>
+              <a href="faq" class="text-decoration-none">FAQS</a>
             </li>
             <li>
               <a href="" class="text-decoration-none">INSURANCE POLICY</a>
@@ -196,9 +210,9 @@
           </ul>
         </div>
         <div class="footer_right d-flex align-items-center justify-content-evenly">
-          <img src="images/ic-facebook.png" width="9" height="18">
+          <img src="<c:url value="/resources/images/ic-facebook.png"></c:url>" width="9" height="18">
 
-          <img src="images/ic-instagram.png" width="20" height="20">
+          <img src="<c:url value="/resources/images/ic-instagram.png"></c:url>" width="20" height="20">
 
         </div>
       </div>
